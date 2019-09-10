@@ -52,11 +52,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who finds what it means to live a meaningful life.
+        Written by <strong>{author}</strong> who finds what it means to live a
+        meaningful life.
         {` `}
-        <a href={personalSite}>
-          Reach him here.
-        </a>
+        <a href={personalSite}>Reach me here.</a>
       </p>
     </div>
   )

@@ -4,9 +4,10 @@ module.exports = {
     author: `hamcompe`,
     description: `Meaningful life and tech blog`,
     siteUrl: `https://hamcompe-blog.netlify.com/`,
-    personalSite: 'https://hamcompe.com'
+    personalSite: "https://hamcompe.com",
   },
   plugins: [
+    "gatsby-plugin-emotion",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
